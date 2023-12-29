@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    background-image: url(sfondoversioniprecedenti.jpg);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    user-select: none;
+    flex-direction: column;
+    height: 100vh;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu,
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:  300;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:  10px 10%;
+    
+}
+
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a{
+    transition: all.3s ease;
+}
+
+.menu a:hover {
+    color: #d0ff00;
+}
+
+button {
+    padding:  9px 25px;
+    background-color: #d0ff00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all.3s ease;
+    margin-left: 30px;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #2600ff;
+    
+
+}
+
+.logo {
+    margin-right: auto;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:  300;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.tabella{
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(48, 48, 48);
+}
